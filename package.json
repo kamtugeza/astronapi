@@ -2,5 +2,11 @@
   "name": "astronapi",
   "version": "0.1.0",
   "license": "MIT",
-  "packageManager": "pnpm@10.19.0"
+  "scripts": {
+    "dev": "turbo run dev"
+  },
+  "packageManager": "pnpm@10.19.0",
+  "devDependencies": {
+    "turbo": "2.6.0"
+  }
 }
